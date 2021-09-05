@@ -1,6 +1,4 @@
-=begin
-  puts returns nil
-=end
+# puts returns nil
 
 def greet
   puts "Good Morning"
