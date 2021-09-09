@@ -5,10 +5,10 @@ p full_name.call('shubh')
 
 full_name_lamda = lambda { |first, last| "#{first}  #{last}" }
 p full_name_lamda.call('shubh') 
-#=> Gives error of wrong num of args
+#=> Gives wrong number of arguments error
 
 
-# return behaviour
+# Returns behaviour
 
 def method_with_proc
   x = Proc.new{ |x| return x}
