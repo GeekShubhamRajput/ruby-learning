@@ -1,5 +1,7 @@
 ## DynamicallyMethodCreation
 
+# We can create methods at run time using define_method.
+
 class Book
 
   genres = %w{fiction horror history}
