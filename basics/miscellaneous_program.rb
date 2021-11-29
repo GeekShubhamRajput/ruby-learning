@@ -4,11 +4,13 @@ def is_prime_number(n)
   return false if [0,1].include?(n)
   flag = true
   (2..(n-1)).each do |i|
-    flag = false if n % i == 0
+    if n % i == 0
+      flag = false
+      break
+    end
   end
   flag
 end
-
 p is_prime_number(5)
 
 
@@ -87,9 +89,3 @@ expected_array = Hash.new
 final_hash.each{|k, v| expected_array[k] = v.length}
 p expected_array
 p sorted_by_value = expected_array.sort_by{ |k, v| v }.to_h
-
-
-
-
-
-
