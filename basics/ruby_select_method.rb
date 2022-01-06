@@ -1,7 +1,7 @@
 ## Ruby select method
 =begin
 
-Array#select() : select() is a Array class method which  returns a new array containing all elements 
+Array#select() : select() is an Array class method which  returns a new array containing all elements 
 of array for which the given block returns a true value.
 
 =end

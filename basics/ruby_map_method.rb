@@ -2,7 +2,7 @@
 
 =begin
 
-Array#map() : map() is a Array class method which returns a new array containing the values 
+Array#map() : map() is an Array class method which returns a new array containing the values 
   returned by the block.
   The main use for map is to TRANSFORM data.
 =end
