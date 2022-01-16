@@ -1,6 +1,6 @@
 ## PowerDigitSum
 
-1. 2**5 = 32 and the sum of its digit is 3 + 2 = 5
+Prob. 2**5 = 32 and the sum of its digit is 3 + 2 = 5
   What is the sum of digits of the number 5**5 ?
 
 sol :- 
