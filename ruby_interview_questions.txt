@@ -1,0 +1,14 @@
+## RubyInterviewQuestions
+
+1. Kind of variables
+2. What is yield ?
+3. ORM
+4. Include vs extend
+5. What Are The Various Components Of Rails?
+6. Abstraction/ access modifiers
+7. MVC and how it works
+8. Filters
+9. Callbacks
+10. What is Proc?
+11. Attr_accessor
+
