@@ -15,6 +15,10 @@ cricket_team.push('Kuldeep', "Chahal")
 =begin
 Array#pop() :- The pop() method in Ruby is used to pop or remove the last element of the given array 
 and returns the removed elements.
+
+pop → object or nil
+pop(count) → new_array
+
 =end
 cricket_team = ["Sachin", 'Sehwag', 'Kohli']
 cricket_team.pop # => 'Kohli'
