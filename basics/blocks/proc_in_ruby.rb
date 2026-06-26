@@ -9,6 +9,7 @@ square = Proc.new {|x| x**2 }
 p square.call(5)
 p square.(9)
 p square[8]
+p [1, 3, 5].map(&square) 
 
 full_name = proc{|first, last| first + " " + last}
 p full_name.call('shubham', 'rajput')
