@@ -19,3 +19,11 @@ addition = Proc.new do |a, b|
             a + b
           end
 p addition.call(4,5)
+
+to_inr = Proc.new {|currency| currency * 92 }
+to_euro = Proc.new {|currency| currency * 0.88}
+
+dollor_currency = [10, 3, 57]
+
+p convert_dollor_to_inr = dollor_currency.map(&to_inr)
+p convert_dollor_to_euro = dollor_currency.map(&to_euro)
