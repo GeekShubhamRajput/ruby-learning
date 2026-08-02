@@ -1,4 +1,5 @@
 ## ReadingFileInRuby
 
-teams = File.read("ruby-file-system/wtc_team.txt")
-puts teams
+novel = File.open("ruby-file-system/my_novel.txt")
+
+novel.each {|line| puts line}
