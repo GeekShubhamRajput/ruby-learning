@@ -4,6 +4,9 @@
 
 time = Time.new(2026, 8, 17, 10, 30, 0)
 
+## Add Time
+# self + numeric → new_time
+
 # Add 1 hour
 puts time + (60 * 60)
 # 2026-08-17 11:30:00 +0530
@@ -11,6 +14,9 @@ puts time + (60 * 60)
 # Add 1 day
 puts time + (60 * 60 * 24)
 # 2026-08-18 10:30:00 +0530
+
+## Subtract Time
+# self - numeric → new_time
 
 # Subtract 30 minutes
 puts time - (60 * 30)
