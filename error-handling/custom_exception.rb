@@ -15,10 +15,17 @@ class Oven
   def baked(item)
     raise OvenIsOffException, "Please turn the oven on !" if state == "off"
 
-    "Baked : #{item}"
+    puts "Baked : #{item}"
   end
 end
 
 oven = Oven.new
-#oven.turn_on
-p oven.baked("Sandwich")
+
+begin 
+  oven.baked("Sandwich")
+rescue OvenIsOffException => e
+  puts e.message
+  puts "I will turn the oven on for you and try again!"
+  oven.turn_on
+  retry
+end
