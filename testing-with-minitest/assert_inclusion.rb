@@ -26,7 +26,7 @@ class TestPokemon < Minitest::Test
   end
 
   def teardown
-    puts "Test is done, Deleting Pokemon from database" 
+    # Run this method after each test 
   end
   
   def test_name
@@ -48,10 +48,7 @@ end
 
 # Running:
 
-# Test is done, Deleting Pokemon from database
-# .Test is done, Deleting Pokemon from database
-# .Test is done, Deleting Pokemon from database
-# .
+# ...
 
-# Finished in 0.001099s, 2729.4364 runs/s, 3639.2486 assertions/s.
+# Finished in 0.001097s, 2734.7062 runs/s, 3646.2749 assertions/s.
 # 3 runs, 4 assertions, 0 failures, 0 errors, 0 skips
